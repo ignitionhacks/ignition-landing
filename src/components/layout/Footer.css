@@ -1,4 +1,6 @@
 #footer-container {
+  position: relative;
+  z-index: 10;
   display: flex;
   justify-content: space-between;
   background-color: var(--footer-background);
@@ -13,7 +15,24 @@
   gap: 1.4em;
 }
 
+.footer-social-link {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  line-height: 0;
+  text-decoration: none;
+  color: inherit;
+  cursor: pointer;
+}
+
+.footer-social-link:focus-visible {
+  outline: 2px solid #1a1a1a;
+  outline-offset: 4px;
+  border-radius: 4px;
+}
+
 .clickable-icon {
   width: 32px;
   height: 32px;
+  display: block;
 }
