@@ -88,14 +88,46 @@
   justify-content: center;
   background-color: #FFDFAA;
   border-radius: 1cqw;
-  padding: 0.8cqw;
+  padding: 1.15cqw;
+  text-decoration: none;
+  color: inherit;
+  cursor: pointer;
+  overflow: visible;
 }
 
+.sponsor-card:focus-visible {
+  outline: 2px solid #765c3a;
+  outline-offset: 3px;
+}
+
+/* Muted default; full color + pop on hover (card background stays still) */
 .sponsor-card__logo {
-  width: 100%;
-  height: 100%;
+  max-width: 100%;
+  max-height: 100%;
+  width: auto;
+  height: auto;
   object-fit: contain;
   display: block;
+  flex-shrink: 0;
+  transform-origin: center center;
+  filter: grayscale(100%) brightness(2) contrast(0.6) opacity(0.8);
+  transform: scale(1);
+  transition:
+    filter 0.16s ease-out,
+    transform 0.16s ease-out;
+  pointer-events: none;
+}
+
+.sponsor-card:hover .sponsor-card__logo,
+.sponsor-card:focus-visible .sponsor-card__logo {
+  filter: none;
+  transform: scale(1.08);
+}
+
+.sponsor-card:active .sponsor-card__logo {
+  filter: none;
+  transform: scale(1.04);
+  transition-duration: 0.1s;
 }
 
 /*
@@ -115,12 +147,13 @@
   margin-top: 6.181cqw;   /* 89 / 14.4  */
   margin-left: 28.4%;     /* aligned with title left edge */
   width: 57.847cqw;       /* (381×2 + 71) / 14.4 */
-  gap: 2.639cqw 4.931cqw; /* row: 38/14.4  col: 71/14.4 */
+  /* Slightly tighter gaps so each card can be wider/taller for hover scale */
+  gap: 2.039cqw 3.931cqw;
 }
 
 .sponsors-tier--blaze .sponsor-card {
-  width: calc((100% - 4.931cqw) / 2);
-  height: 13.611cqw; /* 196 / 14.4 */
+  width: calc((100% - 3.931cqw) / 2);
+  height: 14.211cqw; /* +0.6cqw vs design — room for scale(1.08) */
 }
 
 /*
@@ -140,12 +173,12 @@
   margin-left: auto;
   margin-right: 33.1%;   /* right edge aligned with title right edge */
   width: 57.847cqw;      /* (381×2 + 71) / 14.4 */
-  gap: 2.639cqw 4.931cqw;
+  gap: 2.039cqw 3.931cqw;
 }
 
 .sponsors-tier--flame .sponsor-card {
-  width: calc((100% - 4.931cqw) / 2);
-  height: 13.611cqw;
+  width: calc((100% - 3.931cqw) / 2);
+  height: 14.211cqw;
 }
 
 /*
@@ -164,12 +197,12 @@
   margin-top: 5.914cqw;   /* 85.158 / 14.4 */
   margin-left: 32.5%;     /* aligned with title left edge */
   width: 57.036cqw;       /* (234.636×3 + 58.707×2) / 14.4 */
-  gap: 2.105cqw 4.077cqw; /* row: 30.317/14.4  col: 58.707/14.4 */
+  gap: 1.605cqw 3.477cqw;
 }
 
 .sponsors-tier--spark .sponsor-card {
-  width: calc((100% - 2 * 4.077cqw) / 3);
-  height: 8.413cqw;  /* 121.15 / 14.4 */
+  width: calc((100% - 2 * 3.477cqw) / 3);
+  height: 8.913cqw;
 }
 
 /*
@@ -189,12 +222,12 @@
   margin-left: auto;
   margin-right: 34.9%;   /* right edge aligned with title right edge */
   width: 57.036cqw;      /* (234.636×3 + 58.706×2) / 14.4 */
-  gap: 2.105cqw 4.077cqw;
+  gap: 1.605cqw 3.477cqw;
 }
 
 .sponsors-tier--regular .sponsor-card {
-  width: calc((100% - 2 * 4.077cqw) / 3);
-  height: 8.413cqw;  /* 121.15 / 14.4 */
+  width: calc((100% - 2 * 3.477cqw) / 3);
+  height: 8.913cqw;
 }
 
 /*
@@ -219,7 +252,7 @@
 
   .sponsor-card {
     border-radius: 2.5cqw;
-    padding: 1.2cqw;
+    padding: 1.55cqw;
   }
 
   /*
@@ -240,11 +273,11 @@
     margin-top: 27.72cqw;
     margin-left: 3.94%;
     width: 61.95cqw;
-    gap: 18px 11px;
+    gap: 18px 8px;
   }
   .sponsors-tier--blaze .sponsor-card {
-    width: calc((100% - 11px) / 2);
-    height: 16.16cqw;
+    width: calc((100% - 8px) / 2);
+    height: 16.85cqw;
   }
 
   /*
@@ -265,11 +298,11 @@
     margin-left: 3.94%;
     margin-right: 0;
     width: 61.95cqw;
-    gap: 18px 11px;
+    gap: 18px 8px;
   }
   .sponsors-tier--flame .sponsor-card {
-    width: calc((100% - 11px) / 2);
-    height: 16.16cqw;
+    width: calc((100% - 8px) / 2);
+    height: 16.85cqw;
   }
 
   /*
@@ -289,11 +322,11 @@
     margin-top: 34.20cqw;
     margin-left: 3.55%;
     width: 57.61cqw;
-    gap: 18px 11px;
+    gap: 18px 8px;
   }
   .sponsors-tier--spark .sponsor-card {
-    width: calc((100% - 2 * 11px) / 3);
-    height: 9.95cqw;
+    width: calc((100% - 2 * 8px) / 3);
+    height: 10.55cqw;
   }
 
   /*
@@ -314,10 +347,10 @@
     margin-left: 3.94%;
     margin-right: 0;
     width: 57.61cqw;
-    gap: 18px 11px;
+    gap: 18px 8px;
   }
   .sponsors-tier--regular .sponsor-card {
-    width: calc((100% - 2 * 11px) / 3);
-    height: 9.95cqw;
+    width: calc((100% - 2 * 8px) / 3);
+    height: 10.55cqw;
   }
 }

@@ -33,13 +33,20 @@ export default function Sponsors() {
             <h3 className="sponsors-tier__title">{tier.title}</h3>
             <div className="sponsors-grid">
               {grouped[tier.key].map((sponsor, i) => (
-                <div key={i} className="sponsor-card">
+                <a
+                  key={i}
+                  className="sponsor-card"
+                  href="https://www.google.com"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  aria-label={`${sponsor.name} (opens in new tab)`}
+                >
                   <img
                     className="sponsor-card__logo"
                     src={getLogoUrl(sponsor.logo)}
-                    alt={sponsor.name}
+                    alt=""
                   />
-                </div>
+                </a>
               ))}
             </div>
           </div>
