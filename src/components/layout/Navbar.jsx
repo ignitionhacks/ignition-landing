@@ -17,17 +17,19 @@ export default function Navbar() {
         <img src={logo} alt="Ignition Hacks Logo" className="navbar-logo" />
       </div>
       <div className="navbar-right">
-        <button className="navbar-btn" onClick={() => setShowPopup(true)}>
-          <img src={loginBtn} alt="Login" />
-        </button>
-        <button className="navbar-btn" onClick={() => setShowPopup(true)}>
-          <img src={registrationBtn} alt="Registration" />
-        </button>
+        <div className="navbar-buttons">
+          <button className="navbar-btn" onClick={() => setShowPopup(true)}>
+            <img src={loginBtn} alt="Login" />
+          </button>
+          <button className="navbar-btn" onClick={() => setShowPopup(true)}>
+            <img src={registrationBtn} alt="Registration" />
+          </button>
+        </div>
         <div className="navbar-socials">
-          <a href="https://instagram.com" target="_blank" rel="noopener noreferrer">
+          <a href="https://www.instagram.com/ignitionhacks/" target="_blank" rel="noopener noreferrer">
             <img src={insta} alt="Instagram" />
           </a>
-          <a href="https://linkedin.com" target="_blank" rel="noopener noreferrer">
+          <a href="https://linkedin.com/company/ignition-hacks/" target="_blank" rel="noopener noreferrer">
             <img src={linkedin} alt="LinkedIn" />
           </a>
           <a href="mailto:contact@ignitionhacks.org">

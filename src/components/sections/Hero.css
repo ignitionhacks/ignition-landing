@@ -179,6 +179,31 @@
     transform: rotate(-7deg);
 }
 
+/* --- LOCK LAYOUT AT MAX WIDTH --- */
+@media (min-width: 1440px) {
+    .hero {
+        padding: 4rem 72px; /* freeze 5vw at 1440px */
+    }
+    .content {
+        width: 490px; /* freeze 34vw at 1440px */
+    }
+    .content h1 {
+        font-size: 3.5rem;
+    }
+    .content p {
+        font-size: 1.1rem;
+    }
+    .content button {
+        font-size: 1.3rem;
+    }
+    .hero-description h2 {
+        font-size: 2.2rem;
+    }
+    .hero-description p {
+        font-size: 1.5rem;
+    }
+}
+
 /* --- MOBILE LAYOUT (Stacking) --- */
 @media screen and (max-width: 768px) {
     .hero {
