@@ -100,7 +100,6 @@
   outline-offset: 3px;
 }
 
-/* Muted default; full color + pop on hover (card background stays still) */
 .sponsor-card__logo {
   max-width: 100%;
   max-height: 100%;
@@ -110,22 +109,17 @@
   display: block;
   flex-shrink: 0;
   transform-origin: center center;
-  filter: grayscale(100%) brightness(2) contrast(0.6) opacity(0.8);
   transform: scale(1);
-  transition:
-    filter 0.16s ease-out,
-    transform 0.16s ease-out;
+  transition: transform 0.16s ease-out;
   pointer-events: none;
 }
 
 .sponsor-card:hover .sponsor-card__logo,
 .sponsor-card:focus-visible .sponsor-card__logo {
-  filter: none;
   transform: scale(1.08);
 }
 
 .sponsor-card:active .sponsor-card__logo {
-  filter: none;
   transform: scale(1.04);
   transition-duration: 0.1s;
 }
