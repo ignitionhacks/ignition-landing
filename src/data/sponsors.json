@@ -1,31 +1,161 @@
 [
-  { "name": "Interview Cake", "logo": "blaze/InterviewCake-logo.svg", "tier": "blaze" },
-  { "name": "TheKapCo", "logo": "blaze/thekapco-logo.png", "tier": "blaze" },
+  {
+    "name": "Interview Cake",
+    "logo": "blaze/InterviewCake-logo.svg",
+    "tier": "blaze",
+    "url": "https://www.interviewcake.com/"
+  },
+  {
+    "name": "TheKapCo",
+    "logo": "blaze/thekapco-logo.png",
+    "tier": "blaze",
+    "url": "https://www.thekapco.com/"
+  },
 
-  { "name": "BespokeCX", "logo": "flame/BespokeCx-logo.png", "tier": "flame" },
-  { "name": "CPA Ontario", "logo": "flame/CpaOntario-logo.svg", "tier": "flame" },
-  { "name": "Goliath", "logo": "flame/Goliath.png", "tier": "flame" },
+  {
+    "name": "BespokeCX",
+    "logo": "flame/BespokeCx-logo.png",
+    "tier": "flame",
+    "url": "https://www.bespokecsi.com/"
+  },
+  {
+    "name": "CPA Ontario",
+    "logo": "flame/CpaOntario-logo.svg",
+    "tier": "flame",
+    "url": "https://www.cpaontario.ca/"
+  },
+  {
+    "name": "Goliath",
+    "logo": "flame/Goliath.png",
+    "tier": "flame",
+    "url": "https://automationroboticsarduino.com/"
+  },
 
-  { "name": "Best Buy", "logo": "spark/BestBuy-logo.svg", "tier": "spark" },
-  { "name": "CryptoChicks", "logo": "spark/CryptoChicks.png", "tier": "spark" },
-  { "name": "Incogni", "logo": "spark/Incogni.png", "tier": "spark" },
-  { "name": "Keel", "logo": "spark/Keel.png", "tier": "spark" },
-  { "name": "Math Endowment Fund", "logo": "spark/Mef.svg", "tier": "spark" },
-  { "name": "NordPass", "logo": "spark/NordPass.png", "tier": "spark" },
-  { "name": "NordProtect", "logo": "spark/NordProtect.png", "tier": "spark" },
-  { "name": "NordVPN", "logo": "spark/NordVpn.png", "tier": "spark" },
-  { "name": "Queen's Computing", "logo": "spark/QueensComputing.png", "tier": "spark" },
-  { "name": "Saily", "logo": "spark/Saily.png", "tier": "spark" },
-  { "name": "Scrimba", "logo": "spark/Scrimba.png", "tier": "spark" },
+  {
+    "name": "Best Buy",
+    "logo": "spark/BestBuy-logo.svg",
+    "tier": "spark",
+    "url": "https://www.bestbuy.ca/en-ca"
+  },
+  {
+    "name": "CryptoChicks",
+    "logo": "spark/CryptoChicks.png",
+    "tier": "spark",
+    "url": "https://cryptochicks.ca/"
+  },
+  {
+    "name": "Incogni",
+    "logo": "spark/Incogni.png",
+    "tier": "spark",
+    "url": "https://incogni.com/"
+  },
+  {
+    "name": "Keel",
+    "logo": "spark/Keel.png",
+    "tier": "spark",
+    "url": "https://www.keel.digital/"
+  },
+  {
+    "name": "Math Endowment Fund",
+    "logo": "spark/Mef.svg",
+    "tier": "spark",
+    "url": "https://uwaterloo.ca/math-endowment-fund/"
+  },
+  {
+    "name": "NordPass",
+    "logo": "spark/NordPass.png",
+    "tier": "spark",
+    "url": "https://nordpass.com/"
+  },
+  {
+    "name": "NordProtect",
+    "logo": "spark/NordProtect.png",
+    "tier": "spark",
+    "url": "https://nordprotect.com/"
+  },
+  {
+    "name": "NordVPN",
+    "logo": "spark/NordVpn.png",
+    "tier": "spark",
+    "url": "https://nordvpn.com/"
+  },
+  {
+    "name": "Queen's Computing",
+    "logo": "spark/QueensComputing.png",
+    "tier": "spark",
+    "url": "https://www.cs.queensu.ca/"
+  },
+  {
+    "name": "Saily",
+    "logo": "spark/Saily.png",
+    "tier": "spark",
+    "url": "https://saily.com/"
+  },
+  {
+    "name": "Scrimba",
+    "logo": "spark/Scrimba.png",
+    "tier": "spark",
+    "url": "https://scrimba.com/"
+  },
 
-  { "name": "1Password", "logo": "regular/1Password.png", "tier": "regular" },
-  { "name": "Alfred", "logo": "regular/Alfred.png", "tier": "regular" },
-  { "name": "Balsamiq", "logo": "regular/Balsamiq-logo.svg", "tier": "regular" },
-  { "name": "CleanShot", "logo": "regular/Cleanshot.png", "tier": "regular" },
-  { "name": "Kernels", "logo": "regular/Kernels.png", "tier": "regular" },
-  { "name": "O'Reilly", "logo": "regular/Orielly-logo.svg", "tier": "regular" },
-  { "name": "Uber", "logo": "regular/Uber-logo.svg", "tier": "regular" },
-  { "name": "Vue School", "logo": "regular/VueSchool.png", "tier": "regular" },
-  { "name": "Warp", "logo": "regular/Warp.png", "tier": "regular" },
-  { "name": "WiCS", "logo": "regular/Wics.png", "tier": "regular" }
+  {
+    "name": "1Password",
+    "logo": "regular/1Password.png",
+    "tier": "regular",
+    "url": "https://1password.com/"
+  },
+  {
+    "name": "Alfred",
+    "logo": "regular/Alfred.png",
+    "tier": "regular",
+    "url": "https://www.alfredapp.com/"
+  },
+  {
+    "name": "Balsamiq",
+    "logo": "regular/Balsamiq-logo.svg",
+    "tier": "regular",
+    "url": "https://balsamiq.com/"
+  },
+  {
+    "name": "CleanShot",
+    "logo": "regular/Cleanshot.png",
+    "tier": "regular",
+    "url": "https://cleanshot.com/"
+  },
+  {
+    "name": "Kernels",
+    "logo": "regular/Kernels.png",
+    "tier": "regular",
+    "url": "https://www.kernelspopcorn.com/"
+  },
+  {
+    "name": "O'Reilly",
+    "logo": "regular/Orielly-logo.svg",
+    "tier": "regular",
+    "url": "https://www.oreilly.com/"
+  },
+  {
+    "name": "Uber",
+    "logo": "regular/Uber-logo.svg",
+    "tier": "regular",
+    "url": "https://www.uber.com/ca/en/"
+  },
+  {
+    "name": "Vue School",
+    "logo": "regular/VueSchool.png",
+    "tier": "regular",
+    "url": "https://vueschool.io/"
+  },
+  {
+    "name": "Warp",
+    "logo": "regular/Warp.png",
+    "tier": "regular",
+    "url": "https://www.warp.dev/"
+  },
+  {
+    "name": "WiCS",
+    "logo": "regular/Wics.png",
+    "tier": "regular",
+    "url": "https://wics.uwaterloo.ca/"
+  }
 ]

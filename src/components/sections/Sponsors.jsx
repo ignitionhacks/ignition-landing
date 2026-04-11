@@ -36,7 +36,7 @@ export default function Sponsors() {
                 <a
                   key={i}
                   className="sponsor-card"
-                  href="https://www.google.com"
+                  href={sponsor.url}
                   target="_blank"
                   rel="noopener noreferrer"
                   aria-label={`${sponsor.name} (opens in new tab)`}
