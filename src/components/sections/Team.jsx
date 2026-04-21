@@ -70,7 +70,7 @@ function Pin({ src, id, className }) {
 
 export default function MeetTheTeam() {
   return (
-    <section className="team">
+    <section className="team" id="team">
       <img src={teamBg} alt="Meet the Team" className="team-bg" />
 
       <Pin src={adam}        id="adam"        className="hs-adam" />

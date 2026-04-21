@@ -26,7 +26,7 @@ export default function Sponsors() {
   }
 
   return (
-    <section className="sponsors-section">
+    <section className="sponsors-section" id="sponsors">
       <div className="sponsors-content">
         {tiers.map((tier) => (
           <div key={tier.key} className={`sponsors-tier sponsors-tier--${tier.key}`}>

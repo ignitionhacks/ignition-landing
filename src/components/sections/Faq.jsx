@@ -53,7 +53,7 @@ const towels = [
 
 export default function Faq() {
   return (
-    <section className="faq-section">
+    <section className="faq-section" id="faq">
       <h2 className="faq-title">FAQ</h2>
       <div className="faq-towels">
         {towels.map((towel) => (
