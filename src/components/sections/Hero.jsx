@@ -31,7 +31,7 @@ export default function Hero() {
       {/* content */}
       <div className="content">
         <h1>Arts & Technology <br />Hackathon</h1>
-        <p>August 15-18, 2026</p>
+        <p>August 15-16, 2026</p>
         <button onClick={() => setShowPopup(true)}>Apply Now!</button>
       </div>
 
