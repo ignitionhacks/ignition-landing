@@ -157,5 +157,11 @@
     "logo": "regular/Wics.png",
     "tier": "regular",
     "url": "https://wics.uwaterloo.ca/"
+  },
+  {
+    "name": "ElevenLabs",
+    "logo": "regular/elevenlabs-logo-black.svg",
+    "tier": "regular",
+    "url": "https://elevenlabs.io/"
   }
 ]
