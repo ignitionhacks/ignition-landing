@@ -24,12 +24,6 @@
     "tier": "flame",
     "url": "https://www.cpaontario.ca/"
   },
-  {
-    "name": "Goliath",
-    "logo": "flame/Goliath.png",
-    "tier": "flame",
-    "url": "https://automationroboticsarduino.com/"
-  },
 
   {
     "name": "Best Buy",
@@ -50,22 +44,10 @@
     "url": "https://incogni.com/"
   },
   {
-    "name": "Keel",
-    "logo": "spark/Keel.png",
+    "name": "NordVPN",
+    "logo": "spark/NordVpn.png",
     "tier": "spark",
-    "url": "https://www.keel.digital/"
-  },
-  {
-    "name": "Math Endowment Fund",
-    "logo": "spark/Mef.svg",
-    "tier": "spark",
-    "url": "https://uwaterloo.ca/math-endowment-fund/"
-  },
-  {
-    "name": "NordPass",
-    "logo": "spark/NordPass.png",
-    "tier": "spark",
-    "url": "https://nordpass.com/"
+    "url": "https://nordvpn.com/"
   },
   {
     "name": "NordProtect",
@@ -74,10 +56,16 @@
     "url": "https://nordprotect.com/"
   },
   {
-    "name": "NordVPN",
-    "logo": "spark/NordVpn.png",
+    "name": "NordPass",
+    "logo": "spark/NordPass.png",
     "tier": "spark",
-    "url": "https://nordvpn.com/"
+    "url": "https://nordpass.com/"
+  },
+  {
+    "name": "Math Endowment Fund",
+    "logo": "spark/Mef.svg",
+    "tier": "spark",
+    "url": "https://uwaterloo.ca/math-endowment-fund/"
   },
   {
     "name": "Queen's Computing",
@@ -91,18 +79,18 @@
     "tier": "spark",
     "url": "https://saily.com/"
   },
-  {
-    "name": "Scrimba",
-    "logo": "spark/Scrimba.png",
-    "tier": "spark",
-    "url": "https://scrimba.com/"
-  },
 
   {
     "name": "1Password",
     "logo": "regular/1Password.png",
     "tier": "regular",
     "url": "https://1password.com/"
+  },
+  {
+    "name": "Scrimba",
+    "logo": "spark/Scrimba.png",
+    "tier": "regular",
+    "url": "https://scrimba.com/"
   },
   {
     "name": "Alfred",
