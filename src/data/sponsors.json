@@ -62,6 +62,12 @@
     "url": "https://nordpass.com/"
   },
   {
+    "name": "NexosAI",
+    "logo": "spark/NexosAI.png",
+    "tier": "spark",
+    "url": "https://nexos.ai/"
+  },
+  {
     "name": "Math Endowment Fund",
     "logo": "spark/Mef.svg",
     "tier": "spark",
