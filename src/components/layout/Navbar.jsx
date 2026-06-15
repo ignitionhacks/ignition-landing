@@ -1,11 +1,12 @@
 import { useState } from 'react';
 import './Navbar.css';
-import logo from '../../assets/illustrations/nav/logo.png';
-import loginBtn from '../../assets/illustrations/nav/login.png';
-import registrationBtn from '../../assets/illustrations/nav/registration.png';
-import insta from '../../assets/illustrations/nav/insta.png';
-import linkedin from '../../assets/illustrations/nav/linkedin.png';
+import logo from '../../assets/illustrations/nav/logo.svg';
+import loginBtn from '../../assets/illustrations/nav/login.svg';
+import registrationBtn from '../../assets/illustrations/nav/registration.svg';
+import insta from '../../assets/illustrations/nav/insta.svg';
+import linkedin from '../../assets/illustrations/nav/linkedin.svg';
 import email from '../../assets/illustrations/nav/email.svg';
+
 
 export default function Navbar() {
   const [showPopup, setShowPopup] = useState(false);
