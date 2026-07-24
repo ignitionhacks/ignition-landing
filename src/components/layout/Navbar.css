@@ -75,19 +75,29 @@ button.navbar-btn {
 
 @media (max-width: 600px) {
   .navbar {
-    padding: 10px 16px;
+    padding: 10px 14px;
+    gap: 10px;
   }
+  .navbar-left {
+    min-width: 0;
+    flex-shrink: 1;
+  }
+  /* The logo is a wide (~10:1) wordmark, so size it by width instead of a
+     fixed height. This lets it scale down with the viewport and keeps the
+     login/signup buttons visible on narrow screens. */
   .navbar-logo {
-    height: 28px;
+    height: auto;
+    width: clamp(120px, 40vw, 190px);
+  }
+  .navbar-right {
+    flex-shrink: 0;
+    gap: 8px;
   }
   .navbar-btn img {
-    height: 22px;
+    height: clamp(18px, 5vw, 22px);
   }
   .navbar-socials {
     display: none;
-  }
-  .navbar-right {
-    gap: 8px;
   }
   .navbar-buttons {
     gap: 6px;
