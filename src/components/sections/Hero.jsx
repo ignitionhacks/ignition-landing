@@ -53,7 +53,7 @@ export default function Hero() {
           Arts & Technology <br />
           Hackathon
         </h1>
-        <p>August 15-16, 2026</p>
+        <p>August 2026</p>
         <button onClick={redirectToPortal}>Apply Now!</button>
       </div>
 
