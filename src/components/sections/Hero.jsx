@@ -50,7 +50,7 @@ export default function Hero() {
       {/* content */}
       <div className="content">
         <h1>
-          Arts & Technology <br />
+          Virtual, Arts & Technology <br />
           Hackathon
         </h1>
         <p>August 21-22</p>
