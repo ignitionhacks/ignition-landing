@@ -1,161 +1,76 @@
 [
   {
-    "name": "Interview Cake",
-    "logo": "blaze/InterviewCake-logo.svg",
+    "name": "Base44",
+    "logo": "blaze/base44.svg",
     "tier": "blaze",
-    "url": "https://www.interviewcake.com/"
-  },
-  {
-    "name": "TheKapCo",
-    "logo": "blaze/thekapco-logo.png",
-    "tier": "blaze",
-    "url": "https://www.thekapco.com/"
+    "url": "https://base44.com/"
   },
 
   {
-    "name": "BespokeCX",
-    "logo": "flame/BespokeCx-logo.png",
-    "tier": "flame",
-    "url": "https://www.bespokecsi.com/"
-  },
-  {
-    "name": "CPA Ontario",
-    "logo": "flame/CpaOntario-logo.svg",
-    "tier": "flame",
-    "url": "https://www.cpaontario.ca/"
-  },
-
-  {
-    "name": "Best Buy",
-    "logo": "spark/BestBuy-logo.svg",
+    "name": "UofTCompSci",
+    "logo": "spark/UofTCompSci.svg",
     "tier": "spark",
-    "url": "https://www.bestbuy.ca/en-ca"
+    "url": "https://web.cs.toronto.edu/"
   },
   {
-    "name": "CryptoChicks",
-    "logo": "spark/CryptoChicks.png",
+    "name": "CES-CST",
+    "logo": "spark/ces-cst.svg",
     "tier": "spark",
-    "url": "https://cryptochicks.ca/"
+    "url": "https://www.cse-cst.gc.ca/en"
   },
   {
-    "name": "Incogni",
-    "logo": "spark/Incogni.png",
+    "name": "Shopify",
+    "logo": "spark/Shopify-Logo.svg",
     "tier": "spark",
-    "url": "https://incogni.com/"
+    "url": "https://www.shopify.com/ca"
   },
   {
-    "name": "NordVPN",
-    "logo": "spark/NordVpn.png",
-    "tier": "spark",
-    "url": "https://nordvpn.com/"
-  },
-  {
-    "name": "NordProtect",
-    "logo": "spark/NordProtect.png",
-    "tier": "spark",
-    "url": "https://nordprotect.com/"
-  },
-  {
-    "name": "NordPass",
-    "logo": "spark/NordPass.png",
-    "tier": "spark",
-    "url": "https://nordpass.com/"
-  },
-  {
-    "name": "NexosAI",
-    "logo": "spark/NexosAI.png",
-    "tier": "spark",
-    "url": "https://nexos.ai/"
-  },
-  {
-    "name": "Math Endowment Fund",
-    "logo": "spark/Mef.svg",
-    "tier": "spark",
-    "url": "https://uwaterloo.ca/math-endowment-fund/"
-  },
-  {
-    "name": "Queen's Computing",
-    "logo": "spark/QueensComputing.png",
+    "name": "Queens-computing",
+    "logo": "spark/queens-computing.svg",
     "tier": "spark",
     "url": "https://www.cs.queensu.ca/"
   },
   {
-    "name": "Saily",
-    "logo": "spark/Saily.png",
+    "name": "UofWaterloo",
+    "logo": "spark/uofwaterloo.svg",
     "tier": "spark",
-    "url": "https://saily.com/"
+    "url": "https://uwaterloo.ca/"
   },
 
   {
-    "name": "1Password",
-    "logo": "regular/1Password.png",
+    "name": "rootme-pro",
+    "logo": "regular/rootme-pro.svg",
     "tier": "regular",
-    "url": "https://1password.com/"
+    "url": "https://root-me.pro/"
   },
   {
-    "name": "Scrimba",
-    "logo": "spark/Scrimba.png",
+    "name": "things",
+    "logo": "regular/things.svg",
+    "tier": "regular",
+    "url": "https://culturedcode.com/things/"
+  },
+  {
+    "name": "eleven-labs",
+    "logo": "regular/eleven-labs.svg",
+    "tier": "regular",
+    "url": "https://elevenlabs.io/"
+  },
+  {
+    "name": "scrimba",
+    "logo": "regular/Scrimba.svg",
     "tier": "regular",
     "url": "https://scrimba.com/"
   },
   {
-    "name": "Alfred",
-    "logo": "regular/Alfred.png",
+    "name": "mobbin",
+    "logo": "regular/mobbin.svg",
     "tier": "regular",
-    "url": "https://www.alfredapp.com/"
+    "url": "https://mobbin.com/"
   },
   {
-    "name": "Balsamiq",
-    "logo": "regular/Balsamiq-logo.svg",
+    "name": "world-labs",
+    "logo": "regular/world-labs.svg",
     "tier": "regular",
-    "url": "https://balsamiq.com/"
-  },
-  {
-    "name": "CleanShot",
-    "logo": "regular/Cleanshot.png",
-    "tier": "regular",
-    "url": "https://cleanshot.com/"
-  },
-  {
-    "name": "Kernels",
-    "logo": "regular/Kernels.png",
-    "tier": "regular",
-    "url": "https://www.kernelspopcorn.com/"
-  },
-  {
-    "name": "O'Reilly",
-    "logo": "regular/Orielly-logo.svg",
-    "tier": "regular",
-    "url": "https://www.oreilly.com/"
-  },
-  {
-    "name": "Uber",
-    "logo": "regular/Uber-logo.svg",
-    "tier": "regular",
-    "url": "https://www.uber.com/ca/en/"
-  },
-  {
-    "name": "Vue School",
-    "logo": "regular/VueSchool.png",
-    "tier": "regular",
-    "url": "https://vueschool.io/"
-  },
-  {
-    "name": "Warp",
-    "logo": "regular/Warp.png",
-    "tier": "regular",
-    "url": "https://www.warp.dev/"
-  },
-  {
-    "name": "WiCS",
-    "logo": "regular/Wics.png",
-    "tier": "regular",
-    "url": "https://wics.uwaterloo.ca/"
-  },
-  {
-    "name": "ElevenLabs",
-    "logo": "regular/elevenlabs-logo-black.svg",
-    "tier": "regular",
-    "url": "https://elevenlabs.io/"
+    "url": "https://www.worldlabs.ai/"
   }
 ]

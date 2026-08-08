@@ -28,7 +28,7 @@ export default function Sponsors() {
   return (
     <section className="sponsors-section" id="sponsors">
       <div className="sponsors-content">
-        {tiers.map((tier) => (
+        {tiers.filter((tier) => grouped[tier.key].length > 0).map((tier) => (
           <div key={tier.key} className={`sponsors-tier sponsors-tier--${tier.key}`}>
             <h3 className="sponsors-tier__title">{tier.title}</h3>
             <div className="sponsors-grid">
