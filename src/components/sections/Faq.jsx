@@ -58,7 +58,7 @@ export default function Faq() {
       <div className="faq-towels">
         {towels.map((towel) => (
           <div key={towel.id} className={`faq-towel ${towel.className}`}>
-            <img src={towel.src} alt={towel.alt} />
+            <img src={towel.src} alt={towel.alt} loading="lazy" decoding="async" />
             <div className="faq-towel-content">
               <span className="faq-towel-text">
                 {towel.lines.map((line, i) => (
@@ -76,10 +76,10 @@ export default function Faq() {
       <div className="faq-shadow faq-shadow--coconut" />
       <div className="faq-shadow faq-shadow--redball" />
       <div className="faq-overlay faq-overlay--desktop">
-        <img src={faqOverlay} alt="" />
+        <img src={faqOverlay} alt="" loading="lazy" decoding="async" />
       </div>
       <div className="faq-overlay faq-overlay--mobile">
-        <img src={faqOverlayMobile} alt="" />
+        <img src={faqOverlayMobile} alt="" loading="lazy" decoding="async" />
       </div>
     </section>
   );

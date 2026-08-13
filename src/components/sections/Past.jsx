@@ -1,18 +1,18 @@
-import { useState, useRef } from 'react';
+import { useState, useRef, useEffect } from 'react';
 import "./Past.css";
-import leftArrow from '../../assets/illustrations/past/left-arrow.png';
-import rightArrow from '../../assets/illustrations/past/right-arrow.png';
-import whale from '../../assets/illustrations/past/whale.png';
-import pastBg from '../../assets/backgrounds/past-bg.png';
-import team from '../../assets/illustrations/past/slideshow/team.png';
-import candid1 from '../../assets/illustrations/past/slideshow/candid1.png';
-import candid2 from '../../assets/illustrations/past/slideshow/candid2.png';
-import booth1 from '../../assets/illustrations/past/slideshow/booth1.png';
-import booth2 from '../../assets/illustrations/past/slideshow/booth2.png';
-import booth3 from '../../assets/illustrations/past/slideshow/booth3.png';
-import merch from '../../assets/illustrations/past/slideshow/merch.png';
-import karaoke from '../../assets/illustrations/past/slideshow/karaoke.png';
-import ramen from '../../assets/illustrations/past/slideshow/ramen.png';
+import leftArrow from '../../assets/illustrations/past/left-arrow.webp';
+import rightArrow from '../../assets/illustrations/past/right-arrow.webp';
+import whale from '../../assets/illustrations/past/whale.webp';
+import pastBg from '../../assets/backgrounds/past-bg.webp';
+import team from '../../assets/illustrations/past/slideshow/team.webp';
+import candid1 from '../../assets/illustrations/past/slideshow/candid1.webp';
+import candid2 from '../../assets/illustrations/past/slideshow/candid2.webp';
+import booth1 from '../../assets/illustrations/past/slideshow/booth1.webp';
+import booth2 from '../../assets/illustrations/past/slideshow/booth2.webp';
+import booth3 from '../../assets/illustrations/past/slideshow/booth3.webp';
+import merch from '../../assets/illustrations/past/slideshow/merch.webp';
+import karaoke from '../../assets/illustrations/past/slideshow/karaoke.webp';
+import ramen from '../../assets/illustrations/past/slideshow/ramen.webp';
 
 const slides = [merch, candid1, booth1, team, candid2, booth2, karaoke, booth3, ramen];
 
@@ -22,6 +22,16 @@ export default function Past() {
     const [direction, setDirection] = useState('right');
     const [animating, setAnimating] = useState(false);
     const timerRef = useRef(null);
+
+    // Warm adjacent slides only (avoids downloading all 9 images up front)
+    useEffect(() => {
+        const next = (index + 1) % slides.length;
+        const prev = (index - 1 + slides.length) % slides.length;
+        [slides[next], slides[prev]].forEach((src) => {
+            const img = new Image();
+            img.src = src;
+        });
+    }, [index]);
 
     const navigate = (dir) => {
         if (animating) return;
@@ -41,29 +51,31 @@ export default function Past() {
 
     return (
         <section className="past-section" id="gallery">
-            <div style={{ display: 'none' }}>
-                {slides.map((src, i) => <img key={i} src={src} />)}
-            </div>
             <div className="past-bg-wrapper">
-                <img src={pastBg} className="past-bg-image" alt="" />
+                <img src={pastBg} className="past-bg-image" alt="" loading="lazy" decoding="async" />
 
                 <div className="slideshow-viewport">
                     {prevIndex !== null && (
                         <img
                             src={slides[prevIndex]}
                             className={`slideshow-image ${direction === 'right' ? 'exit-to-left' : 'exit-to-right'}`}
+                            alt=""
+                            decoding="async"
                         />
                     )}
                     <img
                         key={index}
                         src={slides[index]}
                         className={`slideshow-image ${direction === 'right' ? 'enter-from-right' : 'enter-from-left'}`}
+                        alt=""
+                        loading="lazy"
+                        decoding="async"
                     />
                 </div>
 
-                <img src={leftArrow} className="left-arrow-illustration" onClick={() => navigate('left')} />
-                <img src={rightArrow} className="right-arrow-illustration" onClick={() => navigate('right')} />
-                <img src={whale} className="whale-illustration" />
+                <img src={leftArrow} className="left-arrow-illustration" alt="Previous" loading="lazy" decoding="async" onClick={() => navigate('left')} />
+                <img src={rightArrow} className="right-arrow-illustration" alt="Next" loading="lazy" decoding="async" onClick={() => navigate('right')} />
+                <img src={whale} className="whale-illustration" alt="" loading="lazy" decoding="async" />
             </div>
         </section>
     );

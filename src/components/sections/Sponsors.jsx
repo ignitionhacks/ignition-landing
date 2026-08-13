@@ -2,7 +2,7 @@ import './Sponsors.css';
 import sponsorsData from '../../data/sponsors.json';
 
 const logoModules = import.meta.glob(
-  '../../assets/sponsors/**/*.{png,jpg,jpeg,svg}',
+  '../../assets/sponsors/**/*.{png,jpg,jpeg,svg,webp}',
   { eager: true }
 );
 
@@ -45,6 +45,8 @@ export default function Sponsors() {
                     className="sponsor-card__logo"
                     src={getLogoUrl(sponsor.logo)}
                     alt=""
+                    loading="lazy"
+                    decoding="async"
                   />
                 </a>
               ))}

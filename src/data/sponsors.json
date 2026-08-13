@@ -1,75 +1,75 @@
 [
   {
     "name": "Base44",
-    "logo": "blaze/base44.svg",
+    "logo": "blaze/base44.webp",
     "tier": "blaze",
     "url": "https://base44.com/"
   },
 
   {
     "name": "UofTCompSci",
-    "logo": "spark/UofTCompSci.svg",
+    "logo": "spark/UofTCompSci.webp",
     "tier": "spark",
     "url": "https://web.cs.toronto.edu/"
   },
   {
     "name": "CES-CST",
-    "logo": "spark/ces-cst.svg",
+    "logo": "spark/ces-cst.webp",
     "tier": "spark",
     "url": "https://www.cse-cst.gc.ca/en"
   },
   {
     "name": "Shopify",
-    "logo": "spark/Shopify-Logo.svg",
+    "logo": "spark/Shopify-Logo.webp",
     "tier": "spark",
     "url": "https://www.shopify.com/ca"
   },
   {
     "name": "Queens-computing",
-    "logo": "spark/queens-computing.svg",
+    "logo": "spark/queens-computing.webp",
     "tier": "spark",
     "url": "https://www.cs.queensu.ca/"
   },
   {
     "name": "UofWaterloo",
-    "logo": "spark/uofwaterloo.svg",
+    "logo": "spark/uofwaterloo.webp",
     "tier": "spark",
     "url": "https://uwaterloo.ca/"
   },
 
   {
     "name": "rootme-pro",
-    "logo": "regular/rootme-pro.svg",
+    "logo": "regular/rootme-pro.webp",
     "tier": "regular",
     "url": "https://root-me.pro/"
   },
   {
     "name": "things",
-    "logo": "regular/things.svg",
+    "logo": "regular/things.webp",
     "tier": "regular",
     "url": "https://culturedcode.com/things/"
   },
   {
     "name": "eleven-labs",
-    "logo": "regular/eleven-labs.svg",
+    "logo": "regular/eleven-labs.webp",
     "tier": "regular",
     "url": "https://elevenlabs.io/"
   },
   {
     "name": "scrimba",
-    "logo": "regular/Scrimba.svg",
+    "logo": "regular/Scrimba.webp",
     "tier": "regular",
     "url": "https://scrimba.com/"
   },
   {
     "name": "mobbin",
-    "logo": "regular/mobbin.svg",
+    "logo": "regular/mobbin.webp",
     "tier": "regular",
     "url": "https://mobbin.com/"
   },
   {
     "name": "world-labs",
-    "logo": "regular/world-labs.svg",
+    "logo": "regular/world-labs.webp",
     "tier": "regular",
     "url": "https://www.worldlabs.ai/"
   }

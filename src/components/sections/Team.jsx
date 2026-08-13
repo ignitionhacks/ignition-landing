@@ -1,31 +1,31 @@
 import './Team.css';
-import teamBg from '../../assets/backgrounds/meet-the-team.png';
+import teamBg from '../../assets/backgrounds/meet-the-team.webp';
 
-import adam from '../../assets/headshots/adam.png';
-import anushka from '../../assets/headshots/anushka.png';
-import aryan from '../../assets/headshots/aryan.png';
-import ava from '../../assets/headshots/ava.png';
-import caden from '../../assets/headshots/caden.png';
-import chris from '../../assets/headshots/chris.png';
-import daisy from '../../assets/headshots/daisy.png';
-import emily from '../../assets/headshots/emily.png';
-import erin from '../../assets/headshots/erin.png';
-import haardik from '../../assets/headshots/haardik.png';
-import harshpreet from '../../assets/headshots/harshpreet.png';
-import ivan from '../../assets/headshots/ivan.png';
-import jamie from '../../assets/headshots/jamie.png';
-import jeremy from '../../assets/headshots/jeremy.png';
-import lily from '../../assets/headshots/lily.png';
-import nahyun from '../../assets/headshots/nahyun.png';
-import philip from '../../assets/headshots/philip.png';
-import sanidhya from '../../assets/headshots/sanidhya.png';
-import sebastian from '../../assets/headshots/sebastian.png';
-import shinena from '../../assets/headshots/shinena.png';
-import sunny from '../../assets/headshots/sunny.png';
-import thanusshan from '../../assets/headshots/thanusshan.png';
-import vishal from '../../assets/headshots/vishal.png';
-import winston from '../../assets/headshots/winston.png';
-import youssef from '../../assets/headshots/youssef.png';
+import adam from '../../assets/headshots/adam.webp';
+import anushka from '../../assets/headshots/anushka.webp';
+import aryan from '../../assets/headshots/aryan.webp';
+import ava from '../../assets/headshots/ava.webp';
+import caden from '../../assets/headshots/caden.webp';
+import chris from '../../assets/headshots/chris.webp';
+import daisy from '../../assets/headshots/daisy.webp';
+import emily from '../../assets/headshots/emily.webp';
+import erin from '../../assets/headshots/erin.webp';
+import haardik from '../../assets/headshots/haardik.webp';
+import harshpreet from '../../assets/headshots/harshpreet.webp';
+import ivan from '../../assets/headshots/ivan.webp';
+import jamie from '../../assets/headshots/jamie.webp';
+import jeremy from '../../assets/headshots/jeremy.webp';
+import lily from '../../assets/headshots/lily.webp';
+import nahyun from '../../assets/headshots/nahyun.webp';
+import philip from '../../assets/headshots/philip.webp';
+import sanidhya from '../../assets/headshots/sanidhya.webp';
+import sebastian from '../../assets/headshots/sebastian.webp';
+import shinena from '../../assets/headshots/shinena.webp';
+import sunny from '../../assets/headshots/sunny.webp';
+import thanusshan from '../../assets/headshots/thanusshan.webp';
+import vishal from '../../assets/headshots/vishal.webp';
+import winston from '../../assets/headshots/winston.webp';
+import youssef from '../../assets/headshots/youssef.webp';
 
 const members = {
   adam:       { name: 'Adam',       role: 'Development Executive' },
@@ -63,7 +63,7 @@ function Pin({ src, id, className }) {
         <span className="hs-label-name">{name}</span>
         <span className="hs-label-role">{role}</span>
       </div>
-      <img src={src} alt={name} className="hs-img" />
+      <img src={src} alt={name} className="hs-img" loading="lazy" decoding="async" />
     </div>
   );
 }
@@ -71,7 +71,7 @@ function Pin({ src, id, className }) {
 export default function MeetTheTeam() {
   return (
     <section className="team" id="team">
-      <img src={teamBg} alt="Meet the Team" className="team-bg" />
+      <img src={teamBg} alt="Meet the Team" className="team-bg" loading="lazy" decoding="async" />
 
       <Pin src={adam}        id="adam"        className="hs-adam" />
       <Pin src={anushka}     id="anushka"     className="hs-anushka" />

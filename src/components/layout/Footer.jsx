@@ -16,7 +16,7 @@ export default function Footer() {
           rel="noopener noreferrer"
           aria-label="IgnitionHacks on Instagram (opens in new tab)"
         >
-          <img src={instagramIcon} alt="" className="clickable-icon" />
+          <img src={instagramIcon} alt="" className="clickable-icon" loading="lazy" decoding="async" />
         </a>
         <a
           href="https://www.linkedin.com/company/ignition-hacks/"
@@ -25,7 +25,7 @@ export default function Footer() {
           rel="noopener noreferrer"
           aria-label="IgnitionHacks on LinkedIn (opens in new tab)"
         >
-          <img src={linkedinIcon} alt="" className="clickable-icon" />
+          <img src={linkedinIcon} alt="" className="clickable-icon" loading="lazy" decoding="async" />
         </a>
         <a
           href={MAIL_IGNITION}
@@ -36,7 +36,7 @@ export default function Footer() {
             window.location.href = MAIL_IGNITION;
           }}
         >
-          <img src={emailIcon} alt="" className="clickable-icon" />
+          <img src={emailIcon} alt="" className="clickable-icon" loading="lazy" decoding="async" />
         </a>
       </div>
       <div>2026 IgnitionHacks</div>
