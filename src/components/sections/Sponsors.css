@@ -100,12 +100,17 @@
   outline-offset: 3px;
 }
 
+/*
+  Fill the card's content box in both axes and let object-fit letterbox the
+  logo inside it. width/height:100% (not max-*) is what makes a logo whose
+  intrinsic size is smaller than the card scale UP to meet it, so every card
+  reads at the same visual weight regardless of the source export's size.
+*/
 .sponsor-card__logo {
-  max-width: 100%;
-  max-height: 100%;
-  width: auto;
-  height: auto;
+  width: 100%;
+  height: 100%;
   object-fit: contain;
+  object-position: center;
   display: block;
   flex-shrink: 0;
   transform-origin: center center;

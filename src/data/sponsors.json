@@ -13,8 +13,8 @@
     "url": "https://web.cs.toronto.edu/"
   },
   {
-    "name": "CES-CST",
-    "logo": "spark/ces-cst.webp",
+    "name": "CSE-CST",
+    "logo": "spark/cse-cst.webp",
     "tier": "spark",
     "url": "https://www.cse-cst.gc.ca/en"
   },
@@ -62,15 +62,63 @@
     "url": "https://scrimba.com/"
   },
   {
+    "name": "world-labs",
+    "logo": "regular/world-labs.webp",
+    "tier": "regular",
+    "url": "https://www.worldlabs.ai/"
+  },
+  {
     "name": "mobbin",
     "logo": "regular/mobbin.webp",
     "tier": "regular",
     "url": "https://mobbin.com/"
   },
   {
-    "name": "world-labs",
-    "logo": "regular/world-labs.webp",
+    "name": "nordvpn",
+    "logo": "regular/nordvpn.webp",
     "tier": "regular",
-    "url": "https://www.worldlabs.ai/"
+    "url": "https://nordvpn.com/"
+  },
+  {
+    "name": "nordpass",
+    "logo": "regular/nordpass.webp",
+    "tier": "regular",
+    "url": "https://nordpass.com/"
+  },
+  {
+    "name": "coveron",
+    "logo": "regular/coveron.webp",
+    "tier": "regular",
+    "url": "https://coveron.com/"
+  },
+  {
+    "name": "incogni",
+    "logo": "regular/incogni.webp",
+    "tier": "regular",
+    "url": "https://incogni.com/"
+  },
+  {
+    "name": "nexosai",
+    "logo": "regular/nexosai.webp",
+    "tier": "regular",
+    "url": "https://nexos.ai/"
+  },
+  {
+    "name": "saily",
+    "logo": "regular/saily.webp",
+    "tier": "regular",
+    "url": "https://saily.com/"
+  },
+  {
+    "name": "n8n",
+    "logo": "regular/n8n.webp",
+    "tier": "regular",
+    "url": "https://n8n.io/"
+  },
+  {
+    "name": "render",
+    "logo": "regular/render.webp",
+    "tier": "regular",
+    "url": "https://render.com/"
   }
 ]
