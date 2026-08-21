@@ -36,46 +36,46 @@ import winston from '../../assets/headshots/winston.webp';
 import youssef from '../../assets/headshots/youssef.webp';
 
 const members = {
-  ali:        { name: 'Ali',        role: 'Development Executive' },
-  abdullah:   { name: 'Abdullah',   role: 'Development Executive' },
-  anushka:    { name: 'Anushka',    role: 'Sponsorship Executive' },
-  aryan:      { name: 'Aryan',      role: 'Development Executive' },
-  adam:       { name: 'Adam',       role: 'UI/UX Executive' },
-  ava:        { name: 'Ava',        role: 'UI/UX Director' },
-  basil:      { name: 'Basil',      role: 'Sponsorship Executive' },
-  ben:        { name: 'Ben',        role: 'Sponsorship Executive' },
-  caden:      { name: 'Caden',      role: 'Logistics Executive' },
-  chris:      { name: 'Chris',      role: 'Marketing Executive' },
-  daisy:      { name: 'Daisy',      role: 'Sponsorship Director' },
-  emily:      { name: 'Emily',      role: 'Logistics Director' },
-  erin:       { name: 'Erin',       role: 'Sponsorship Director' },
-  franklin:   { name: 'Franklin',   role: 'IgnitionHacks Advisor' },
-  harshpreet: { name: 'Harshpreet', role: 'IgnitionHacks Chair' },
-  ivan:       { name: 'Ivan',       role: 'Marketing Executive' },
-  jamie:      { name: 'Jamie',      role: 'Sponsorship Executive' },
-  jeremy:     { name: 'Jeremy',     role: 'Development Executive' },
-  lily:       { name: 'Lily',       role: 'UI/UX Executive' },
-  nahyun:     { name: 'Nahyun',     role: 'Marketing Executive' },
-  newsha:     { name: 'Newsha',     role: 'Sponsorship Executive' },
-  parth:      { name: 'Parth',      role: 'Sponsorship Executive' },
-  philip:     { name: 'Philip',     role: 'Logistics Executive' },
-  shinena:    { name: 'Shinena',    role: 'Logistics Executive' },
-  sunny:      { name: 'Sunny',      role: 'Development Director' },
-  sayeon:     { name: 'Sayeon',     role: 'Marketing Executive' },
-  thanusshan: { name: 'Thanusshan', role: 'Marketing Director' },
-  vishal:     { name: 'Vishal',     role: 'Logistics Executive' },
-  vickie:     { name: 'Vickie',     role: 'UI/UX Executive' },
-  peter:      { name: 'Peter',      role: 'UI/UX Executive' },
-  shaeshan:   { name: 'Shaeshan',   role: 'Logistics Executive' },
-  winston:    { name: 'Winston',    role: 'UI/UX Executive' },
-  youssef:    { name: 'Youssef',    role: 'Development Director' },
+  ali:        { name: 'Ali',        role: 'Development Executive', section: 'development' },
+  abdullah:   { name: 'Abdullah',   role: 'Development Executive', section: 'development' },
+  anushka:    { name: 'Anushka',    role: 'Sponsorship Executive', section: 'sponsorship' },
+  aryan:      { name: 'Aryan',      role: 'Development Executive', section: 'development' },
+  adam:       { name: 'Adam',       role: 'UI/UX Executive', section: 'uiux' },
+  ava:        { name: 'Ava',        role: 'UI/UX Director', section: 'uiux' },
+  basil:      { name: 'Basil',      role: 'Sponsorship Executive', section: 'sponsorship' },
+  ben:        { name: 'Ben',        role: 'Sponsorship Executive', section: 'sponsorship' },
+  caden:      { name: 'Caden',      role: 'Logistics Executive', section: 'logistics' },
+  chris:      { name: 'Chris',      role: 'Marketing Executive', section: 'marketing' },
+  daisy:      { name: 'Daisy',      role: 'Sponsorship Director', section: 'sponsorship' },
+  emily:      { name: 'Emily',      role: 'Logistics Director', section: 'logistics' },
+  erin:       { name: 'Erin',       role: 'Sponsorship Director', section: 'sponsorship' },
+  franklin:   { name: 'Franklin',   role: 'IgnitionHacks Advisor', section: 'advisor' },
+  harshpreet: { name: 'Harshpreet', role: 'IgnitionHacks Chair', section: 'chair' },
+  ivan:       { name: 'Ivan',       role: 'Marketing Executive', section: 'marketing' },
+  jamie:      { name: 'Jamie',      role: 'Sponsorship Executive', section: 'sponsorship' },
+  jeremy:     { name: 'Jeremy',     role: 'Development Executive', section: 'development' },
+  lily:       { name: 'Lily',       role: 'UI/UX Executive', section: 'uiux' },
+  nahyun:     { name: 'Nahyun',     role: 'Marketing Executive', section: 'marketing' },
+  newsha:     { name: 'Newsha',     role: 'Sponsorship Executive', section: 'sponsorship' },
+  parth:      { name: 'Parth',      role: 'Sponsorship Executive', section: 'sponsorship' },
+  philip:     { name: 'Philip',     role: 'Logistics Executive', section: 'logistics' },
+  shinena:    { name: 'Shinena',    role: 'Logistics Executive', section: 'logistics' },
+  sunny:      { name: 'Sunny',      role: 'Development Executive', section: 'development' },
+  sayeon:     { name: 'Sayeon',     role: 'Marketing Executive', section: 'marketing' },
+  thanusshan: { name: 'Thanusshan', role: 'Marketing Director', section: 'marketing' },
+  vishal:     { name: 'Vishal',     role: 'Logistics Executive', section: 'logistics' },
+  vickie:     { name: 'Vickie',     role: 'UI/UX Executive', section: 'uiux' },
+  peter:      { name: 'Peter',      role: 'UI/UX Executive', section: 'uiux' },
+  shaeshan:   { name: 'Shaeshan',   role: 'Logistics Executive', section: 'logistics' },
+  winston:    { name: 'Winston',    role: 'UI/UX Executive', section: 'uiux' },
+  youssef:    { name: 'Youssef',    role: 'Development Director', section: 'development' },
 
 };
 
 function Pin({ src, id, className }) {
-  const { name, role } = members[id];
+  const { name, role, section } = members[id];
   return (
-    <div className={`hs-wrap ${className}`}>
+    <div className={`hs-wrap hs-section-${section} ${className}`}>
       <div className="hs-label">
         <span className="hs-label-name">{name}</span>
         <span className="hs-label-role">{role}</span>

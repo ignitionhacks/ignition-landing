@@ -18,6 +18,7 @@
   transform: translate(-50%, -50%);
   cursor: pointer;
   z-index: 1;
+  --hs-border-color: #b39ddb;
 }
 
 .hs-wrap:hover {
@@ -30,16 +31,24 @@
   height: 100%;
   border-radius: 50%;
   object-fit: cover;
-  outline: 4px solid transparent;
-  outline-offset: 1px;
+  outline: 3px solid var(--hs-border-color);
+
   transition: transform 0.25s ease, outline-color 0.25s ease;
   display: block;
 }
 
 .hs-wrap:hover .hs-img {
   transform: scale(1.5);
-  outline-color: #b39ddb;
+  outline-color: var(--hs-border-color);
 }
+
+.hs-wrap.hs-section-sponsorship { --hs-border-color: #FFAB7B; }
+.hs-wrap.hs-section-development { --hs-border-color: #000E86; }
+.hs-wrap.hs-section-logistics   { --hs-border-color: #9661FF; }
+.hs-wrap.hs-section-chair       { --hs-border-color: #C45800; }
+.hs-wrap.hs-section-advisor     { --hs-border-color: #939393; }
+.hs-wrap.hs-section-uiux        { --hs-border-color: #FF7C30; }
+.hs-wrap.hs-section-marketing   { --hs-border-color: #E98E59; }
 
 /* Tooltip label */
 .hs-label {
@@ -88,18 +97,18 @@
 /* Development */
 .hs-jeremy     { top: 73.3%; left: 39.2%; }
 .hs-ali        { top: 83%; left: 71%; }
-.hs-youssef    { top: 76.8%; left: 69%; }
+.hs-youssef    { top: 72.4%; left: 57%; }
 .hs-abdullah   { top: 80%; left: 41%; }
 .hs-aryan      { top: 84.9%; left: 55%; }
-.hs-sunny      { top: 72.4%; left: 57%; }
+.hs-sunny      { top: 76.8%; left: 69%; }
 
 /* UI/UX */
-.hs-lily       { top: 60.6%; left: 91.7%; }
-.hs-ava        { top: 52.8%; left: 91.7%; }
-.hs-vickie     { top: 68.2%; left: 91.7%; }
-.hs-peter      { top: 75.6%; left: 91.7%; }
-.hs-winston    { top: 58.6%; left: 79%; }
-.hs-adam       { top: 66.3%; left: 79%; }
+.hs-lily       { top: 60.6%; left: 92.3%; }
+.hs-ava        { top: 52.7%; left: 92.1%; }
+.hs-vickie     { top: 68.1%; left: 93%; }
+.hs-peter      { top: 75.4%; left: 93.2%; }
+.hs-winston    { top: 58.55%; left: 79.4%; }
+.hs-adam       { top: 66.2%; left: 79.9%; }
 
 /* Marketing */
 .hs-ivan       { top: 91.4%; left: 93.2%; }
