@@ -68,7 +68,7 @@ const members = {
   peter:      { name: 'Peter',      role: 'UI/UX Executive' },
   shaeshan:   { name: 'Shaeshan',   role: 'Logistics Executive' },
   winston:    { name: 'Winston',    role: 'UI/UX Executive' },
-  youssef:    { name: 'Youssef',    role: 'Development Executive' },
+  youssef:    { name: 'Youssef',    role: 'Development Director' },
 
 };
 
