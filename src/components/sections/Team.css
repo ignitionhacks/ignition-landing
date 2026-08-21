@@ -77,38 +77,48 @@
   opacity: 1;
 }
 
-/* Row 1 */
-.hs-jamie      { top: 60.63%; left: 11.84%; }
-.hs-lily       { top: 60.53%; left: 37.74%; }
-.hs-ivan       { top: 60.36%; left: 56.3%; }
-.hs-nahyun     { top: 60.37%; left: 70.63%; }
-.hs-youssef    { top: 60.38%; left: 90.61%; }
+/* Logistics */
+.hs-vishal     { top: 57.1%; left: 8.3%; }
+.hs-emily      { top: 53.1%; left: 22%; }
+.hs-shaeshan   { top: 63.3%; left: 31.2%; }
+.hs-philip     { top: 56.6%; left: 33%; }
+.hs-caden      { top: 60.4%; left: 20%; }
+.hs-shinena    { top: 63.6%; left: 8.7%; }
 
-/* Row 2 */
-.hs-vishal     { top: 69.43%; left: 11.66%; }
-.hs-aryan    { top: 69.43%; left: 27.64%; }
-.hs-caden    { top: 69.43%; left: 47.3%; }
-.hs-anushka  { top: 69.71%; left: 66.8%; }
-.hs-ava      { top: 69.61%; left: 85.09%; }
+/* Development */
+.hs-jeremy     { top: 73.3%; left: 39.2%; }
+.hs-ali        { top: 83%; left: 71%; }
+.hs-youssef    { top: 76.8%; left: 69%; }
+.hs-abdullah   { top: 80%; left: 41%; }
+.hs-aryan      { top: 84.9%; left: 55%; }
+.hs-sunny      { top: 72.4%; left: 57%; }
 
-/* Row 3 */
-.hs-jeremy     { top: 76.03%; left: 16.2%; }
-.hs-haardik  { top: 78.31%; left: 35.76%; }
-.hs-erin     { top: 78.32%; left: 52%; }
-.hs-shinena    { top: 76.53%; left: 72.25%; }
-.hs-thanusshan { top: 76%; left: 86.16%; }
+/* UI/UX */
+.hs-lily       { top: 52.8%; left: 91.7%; }
+.hs-ava        { top: 60.6%; left: 91.7%; }
+.hs-vickie     { top: 68.2%; left: 91.7%; }
+.hs-peter      { top: 75.6%; left: 91.7%; }
+.hs-winston    { top: 58.6%; left: 79%; }
+.hs-adam       { top: 66.3%; left: 79%; }
+
+/* Marketing */
+.hs-ivan       { top: 90.8%; left: 67.8%; }
+.hs-thanusshan { top: 91.4%; left: 93.2%; }
+.hs-nahyun     { top: 95.9%; left: 74%; }
+.hs-sayeon     { top: 96%; left: 85.5%; }
+.hs-chris      { top: 89.9%; left: 80.3%; }
+
+/* Sponsorship */
+.hs-erin       { top: 80%; left: 11%; }
+.hs-daisy      { top: 96.2%; left: 36.3%; }
+.hs-anushka    { top: 85.35%; left: 28.2%; }
+.hs-ben        { top: 89.3%; left: 12%; }
+.hs-jamie      { top: 89.2%; left: 41.3%; }
+.hs-newsha     { top: 92.1%; left: 24.9%; }
+.hs-basil      { top: 96.8%; left: 12.4%; }
+.hs-parth      { top: 77.3%; left: 28.2%; }
 
 
-/* Row 4 */
-.hs-adam     { top: 85.03%; left: 18.18%; }
-.hs-emily    { top: 85.66%; left: 32.3%; }
-.hs-harshpreet { top: 85.66%; left: 50.19%; }
-.hs-sunny      { top: 85.80%; left: 65.59%; }
-.hs-philip     { top: 85.20%; left: 83.69%; }
-
-/* Row 5 */
-.hs-winston    { top: 93.4%; left: 17.95%; } 
-.hs-chris    { top: 93.08%; left:  33.24%; }
-.hs-daisy    { top: 93.55%; left: 48.85%; }
-.hs-sebastian  { top: 93.16%; left: 68.49%; }
-.hs-sanidhya   { top: 92.18%; left: 84.33%; }
+/* Chair & Advisor */
+.hs-harshpreet { top: 58.1%; left: 51%; }
+.hs-franklin   { top: 64%; left: 57%; }
