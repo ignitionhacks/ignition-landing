@@ -13,10 +13,6 @@ export default function Hero() {
     }
   };
 
-  const redirectToPortal = () => {
-    window.location.href = "https://portal.ignitionhacks.org";
-  };
-
   return (
     <section className="hero">
       {/* --- NEW: Invisible Navigation Overlay --- */}
@@ -50,11 +46,10 @@ export default function Hero() {
       {/* content */}
       <div className="content">
         <h1>
-          Virtual, Arts & Technology <br />
+          Arts & Technology <br />
           Hackathon
         </h1>
-        <p>August 21-22</p>
-        <button onClick={redirectToPortal}>Apply Now!</button>
+        <p>Ignition Hacks v.8, August 2027</p>
       </div>
 
       {/* What is Ignition Hacks section */}

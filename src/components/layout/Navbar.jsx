@@ -1,16 +1,14 @@
 import "./Navbar.css";
 import logo from "../../assets/illustrations/nav/logo.svg";
-import loginBtn from "../../assets/illustrations/nav/login.svg";
-import registrationBtn from "../../assets/illustrations/nav/registration.svg";
 import insta from "../../assets/illustrations/nav/insta.svg";
 import linkedin from "../../assets/illustrations/nav/linkedin.svg";
 import email from "../../assets/illustrations/nav/email.svg";
 
-export default function Navbar() {
-  const goToPortal = (route) => {
-    window.location.href = `https://portal.ignitionhacks.org/${route}`;
-  };
+const PACKAGE_URL =
+  "https://drive.google.com/file/d/1ckH3ViA48qnRfCsN2CnGqUJt48AJQajA/view?usp=sharing";
+const MAIL_IGNITION = "mailto:ignitionhacks@gmail.com";
 
+export default function Navbar() {
   return (
     <>
       <nav className="navbar">
@@ -19,12 +17,21 @@ export default function Navbar() {
         </div>
         <div className="navbar-right">
           <div className="navbar-buttons">
-            <button className="navbar-btn" onClick={() => goToPortal("login")}>
-              <img src={loginBtn} alt="Login" />
-            </button>
-            <button className="navbar-btn" onClick={() => goToPortal("signup")}>
-              <img src={registrationBtn} alt="Registration" />
-            </button>
+            <a
+              className="navbar-sponsor-btn"
+              href={PACKAGE_URL}
+              target="_blank"
+              rel="noopener noreferrer"
+              aria-label="View our 2027 sponsorship package (opens in new tab)"
+            >
+              View our 2027 sponsorship package
+            </a>
+            <a
+              className="navbar-sponsor-btn navbar-sponsor-btn--secondary"
+              href={MAIL_IGNITION}
+            >
+              Become a sponsor
+            </a>
           </div>
           <div className="navbar-socials">
             <a

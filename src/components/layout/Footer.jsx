@@ -39,7 +39,7 @@ export default function Footer() {
           <img src={emailIcon} alt="" className="clickable-icon" loading="lazy" decoding="async" />
         </a>
       </div>
-      <div>2026 IgnitionHacks</div>
+      <div>2027 IgnitionHacks v.8</div>
     </div>
   );
 }
